@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height:1.5385;
+    color: #333;
+    text-align: left;
+    background-color: #eeeded;
+}
+.fixed-top{
+    height: 4rem;
+}
+.navbar-brand img {
+    height: 4rem;
+    display: block;
+}
+.navbar-brand {
+     display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 1.25rem;
+    font-size: 0;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbar-top {
+    padding-top: 4rem;
+}
+.sidebar:not(.sidebar-component) .sidebar-content {
+    position: fixed;
+    top: 4rem;
+    bottom: 0;
+    width: inherit;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    transition: left ease-in-out .15s,right ease-in-out .15s;
+}
+.nav-sidebar .nav-item{
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+.icon-list{
+        font-family: 'icomoon' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        min-width: 1em;
+        display: inline-block;
+        text-align: center;
+        font-size: 2rem;
+        vertical-align: middle;
+        position: relative;
+        top: -1px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
+.icon-paragraph-justify3{
+        font-family: 'icomoon' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        min-width: 1em;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.5rem;
+        vertical-align: middle;
+        position: relative;
+        top: -1px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.4rem 0.5rem;
+    font-size: .8125rem;
+    line-height: 1;
+    color: #333;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #673ab7;
+    border-radius: 2px;
+    box-shadow: 17px 16px 8px 15px transparent;
+    background-clip: border-box;
+    border-top-color: #673ab7!important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-align: left;
+
+}
+.bg-primary {
+    background-color: #673ab7!important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #673ab7;
+}
+.form-group {
+    margin-bottom: .25rem;
+}
+select.form-control:not([size]):not([multiple]) {
+    height: 2rem;
+}
+.fa {
+   font-size: 2rem;
+}
+
+
+.modal-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+}
+.table-sm td, .table-sm th {
+    padding: .25rem;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: normal;
+}
+.btn {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem;
+    font-size: .8125rem;
+    line-height: normal;
+    border-radius: .1875rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.col-form-label {
+    line-height: normal;
+}
+.card {
+    margin-bottom: .5rem;
+}
+.content {
+    padding: .5rem;
+}
+.card-body{
+    padding: .5rem;
+}
+.card-footer {
+    padding: .5rem;
+}
+.card-header {
+    padding: .5rem;
+}
+.content-wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+@media screen and (max-width: 992px){
+    .topleft{
+        padding-right: .5rem;
+    }
+    .topright{
+        padding-left: .5rem;
+    }
+}
+@media screen and (min-width: 992px){
+    .topleft{
+        padding-right: 0px;
+    }
+    .topright{
+        padding-left: 0px;
+    }
+}
